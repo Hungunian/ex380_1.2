@@ -51,9 +51,9 @@ metadata:
   resourceVersion: "241755"
   uid: 431d3ce2-7c40-4d04-aa28-fda16c2dec03
 spec:
-  clusterIP: 172.30.175.52
+  clusterIP: 162.30.175.52
   clusterIPs:
-  - 172.30.175.52
+  - 162.30.175.52
   internalTrafficPolicy: Cluster
   ipFamilies:
   - IPv4
