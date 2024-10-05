@@ -15,6 +15,7 @@
         kind: Project
         name: "{{ namespace }}"
         state: present
+        namespace: ""
 
   - name: Create the serviceaccount {{ service_account }} objects from the manifest
         k8s:
