@@ -35,7 +35,7 @@ spec:
     spec:
       serviceAccountName: kubecred
       containers:
-        - image: registry.ocp4.example.com:8443/elastois:v1
+      - image: registry.ocp4.example.com:8443/elastois:v1
         name: redhat-landing
         ports:
         - containerPort: 8080
