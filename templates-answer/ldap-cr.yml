@@ -40,8 +40,8 @@ spec:
             - uid
         bindDN: cn=Directory Manager
         bindPassword:
-          name: rhds-secret 
+          name: idm-secret
         ca:
-          name: rhds-ca-cm 
+          name: idm-ca-config-map
         insecure: false
         url: 'ldaps://rhds.ocp4.example.com/dc=example,dc=com?uid'
