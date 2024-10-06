@@ -41,5 +41,5 @@ spec:
         bindDN: cn=Directory Manager
         bindPassword:
         ca:
-        insecure: false
-        url: 'ldaps://rhds.ocp4.example.com/dc=example,dc=com?uid'
+        insecure: 
+        url: 
